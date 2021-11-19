@@ -1,6 +1,6 @@
 package fr.siomd.ludo;
 
-//version test
+//version test2.0
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
