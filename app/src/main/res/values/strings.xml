@@ -1,0 +1,57 @@
+<resources>
+
+
+    <string name="app_name">Bataille</string>
+    <string name="menu_settings">Settings</string>
+    <string name="btJouer">Jouer</string>
+    <string name="btNouveauJeu">Nouveau Jeu</string>
+    <string name="btAtout">Atout</string>
+    <string name="btJoueur1">Joueur 1</string>
+    <string name="btJoueur2">Joueur 2</string>
+    <string name="btAucunJoueur">Aucun Joueur</string>
+    <string name="txtCarte1">Carte du Joueur 1</string>
+    <string name="txtCarte2">Carte du Joueur 2</string>
+    <string name="txtJ1">As de pique : 10 points</string>
+    <string name="txtJ2">7 de coeur : 7 points</string>
+    <string name="txtScore1">0 point</string>
+    <string name="txtScore2">0 point</string>
+    <string name="txtResultat">Qui va gagner les points ?</string>
+    <string name="edtTotalPoints">Total ?</string>
+    <string name="txtReponses">Tes réponses correctes</string>
+    <string name="txtNbRepCorrectes">0 / 26</string>
+
+
+    <!--    Additionnator-->
+    <string name="btJouerrrrrrrrrrrrrrrrrrrrrrrrrrrrrr">Jouer</string>
+    <string name="btNouveauJeuuuuuuuuuuuuuuuuuuuuuuuuuuuuu">Nouveau Jeu</string>
+    <string name="btValider">Valider</string>
+    <string name="btChangeLogo">Logo</string>
+    <string name="btModeAddition">Mode Addition</string>
+    <string name="btModeMultiplication">Mode Multiplication</string>
+    <string name="txtNb1">Nombre 1</string>
+    <string name="txtNb2">Nombre 2</string>
+    <string name="txtNb3">Nombre 3</string>
+    <string name="txtNb4">Nombre 4</string>
+    <string name="txtPoints">Points</string>
+    <string name="txtNbPoints">0</string>
+    <string name="txtResultatttttttttttttttttttttttt">Résultat ?</string>
+
+
+    <string name="menu_parametres">Paramètres</string>
+    <string name="menu_chercher">Chercher</string>
+    <string name="menu_compter">Compter</string>
+    <string name="menu_bataille">Bataille</string>
+
+    <!-- préférences-->
+    <string name="prefs_mes_parametres">Mes paramètres</string>
+    <string name="prefs_theme">Thème vert et rose</string>
+    <string name="prefs_nom_joueur">Nom joueur</string>
+    <string name="prefs_non_renseigne">Non renseigné</string>
+    <string name="prefs_mes_scores">Mes scores</string>
+    res/values/strings.xml
+    <!-- main-->
+    <string name="txtSalut">Salut</string>
+    <string name="txtPremiereUtilisation">Tu peux mettre à jour tes paramètres.</string>
+
+
+</resources>

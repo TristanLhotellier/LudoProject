@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".CalculerActivity"
+    android:background="#1C1E1E">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgLogoRouge"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="logo"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/additionator_rouge" />
+
+        <ImageView
+            android:id="@+id/imgLogoVert"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="logo"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/additionator_vert" />
+
+        <ImageView
+            android:id="@+id/imgLogoNoir"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="logo"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/additionator_noir" />
+
+        <ImageView
+            android:id="@+id/imgLogoBleu"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="logo"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/additionator_bleu" />
+
+        <ImageView
+            android:id="@+id/imgLogoOrange"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="logo"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/additionator_orange" />
+
+        <!--Images des Multiplicators-->
+
+        <ImageView
+            android:id="@+id/imgMultBleu"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="logo"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/multiplicator_bleu" />
+
+        <ImageView
+            android:id="@+id/imgMultNoir"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="logo"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/multiplicator_noir" />
+        <ImageView
+            android:id="@+id/imgMultOrange"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="logo"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/multiplicator_orange" />
+        <ImageView
+            android:id="@+id/imgMultRouge"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="logo"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/multiplicator_rouge" />
+
+        <ImageView
+            android:id="@+id/imgMultVert"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="logo"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/multiplicator_vert" />
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/Nb1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/box"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Plus1"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/Fois1"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="x"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/Nb2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/box"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/Plus2"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Fois2"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="x"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/Resultat"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:ems="10"
+            android:hint="Résultat ?"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#939191">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/Plus3"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Fois3"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="x"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp">
+
+        </TextView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/Nb3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/box"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btModeAddition"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#8BC34A"
+            android:onClick="onClickbtModeAddition"
+            android:text="Mode Addition"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btModeMultiplication"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#8BC34A"
+            android:onClick="onClickbtModeMultiplication"
+            android:text="Mode Multiplication"
+            android:textColor="#000000" />
+
+
+
+        <TextView
+            android:id="@+id/Nb4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/box"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <!--        android:onClick="onClickbtNouveauJeu"-->
+        <Button
+            android:id="@+id/btNouveauJeu"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="#CA0000"
+            android:onClick="onClickbtNouveauJeu"
+            android:text="Nouveau jeu"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btChangeLogo"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#FFFFFF"
+            android:onClick="onClickbtChangeLogo"
+            android:text="Logo"
+            android:textColor="#000000" />
+
+
+        <Button
+            android:id="@+id/btValider"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:background="#2B2A57"
+            android:onClick="onClickbtValider"
+            android:text="Valider"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/Points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Score"
+            android:textColor="#939191"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/NbPoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="0"
+            android:textColor="#939191"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Essais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Essais"
+            android:textColor="#939191"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/NbEssais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="0"
+            android:textColor="#939191"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
