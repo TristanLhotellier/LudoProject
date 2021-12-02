@@ -1,9 +1,306 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayoutPendu"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/brique_bg"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_padding"
+    android:paddingTop="@dimen/activity_vertical_padding"
+    android:paddingRight="@dimen/activity_horizontal_padding"
+    android:paddingBottom="@dimen/activity_vertical_padding"
     tools:context=".PenduActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView_logo"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/txt_logo"
+            android:gravity="center"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentRight="true"
+            app:srcCompat="@drawable/logo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/bomb1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="DEVINEZ LE MOT ! VITE !" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp" >
+        <ProgressBar
+            android:id="@+id/ProgressBar_temps"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bt_A"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_alignParentLeft="true"
+            android:backgroundTint="@color/bombe"
+            android:text="A" />
+
+        <Button
+            android:id="@+id/bt_B"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="68dp"
+            android:backgroundTint="@color/bombe"
+            android:text="B" />
+
+        <Button
+            android:id="@+id/bt_C"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="134dp"
+            android:backgroundTint="@color/bombe"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/bt_D"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="212dp"
+            android:backgroundTint="@color/bombe"
+            android:text="D" />
+
+        <Button
+            android:id="@+id/bt_E"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="278dp"
+            android:backgroundTint="@color/bombe"
+            android:text="E" />
+
+        <Button
+            android:id="@+id/bt_F"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="@color/bombe"
+            android:text="F" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bt_G"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_alignParentLeft="true"
+            android:backgroundTint="@color/bombe"
+            android:text="G" />
+
+        <Button
+            android:id="@+id/bt_H"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="68dp"
+            android:backgroundTint="@color/bombe"
+            android:text="H" />
+
+        <Button
+            android:id="@+id/bt_I"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="134dp"
+            android:backgroundTint="@color/bombe"
+            android:text="I" />
+
+        <Button
+            android:id="@+id/bt_J"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="212dp"
+            android:backgroundTint="@color/bombe"
+            android:text="J" />
+
+        <Button
+            android:id="@+id/bt_K"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="278dp"
+            android:backgroundTint="@color/bombe"
+            android:text="K" />
+
+        <Button
+            android:id="@+id/bt_L"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="@color/bombe"
+            android:text="L" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bt_M"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_alignParentLeft="true"
+            android:backgroundTint="@color/bombe"
+            android:text="M" />
+
+        <Button
+            android:id="@+id/bt_N"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="68dp"
+            android:backgroundTint="@color/bombe"
+            android:text="N" />
+
+        <Button
+            android:id="@+id/bt_O"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="134dp"
+            android:backgroundTint="@color/bombe"
+            android:text="O" />
+
+        <Button
+            android:id="@+id/bt_P"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="212dp"
+            android:backgroundTint="@color/bombe"
+            android:text="P" />
+
+        <Button
+            android:id="@+id/bt_Q"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="278dp"
+            android:backgroundTint="@color/bombe"
+            android:text="Q" />
+
+        <Button
+            android:id="@+id/bt_R"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="@color/bombe"
+            android:text="R" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bt_S"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_alignParentLeft="true"
+            android:backgroundTint="@color/bombe"
+            android:text="S" />
+
+        <Button
+            android:id="@+id/bt_T"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="68dp"
+            android:backgroundTint="@color/bombe"
+            android:text="T" />
+
+        <Button
+            android:id="@+id/bt_U"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="134dp"
+            android:backgroundTint="@color/bombe"
+            android:text="U" />
+
+        <Button
+            android:id="@+id/bt_V"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="212dp"
+            android:backgroundTint="@color/bombe"
+            android:text="V" />
+
+        <Button
+            android:id="@+id/bt_W"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="278dp"
+            android:backgroundTint="@color/bombe"
+            android:text="W" />
+
+        <Button
+            android:id="@+id/bt_X"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="@color/bombe"
+            android:text="X" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bt_Y"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_alignParentLeft="true"
+            android:backgroundTint="@color/bombe"
+            android:text="Y" />
+
+        <Button
+            android:id="@+id/bt_Z"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="@color/bombe"
+            android:text="Z"/>
+    </RelativeLayout>
+
+</LinearLayout>
