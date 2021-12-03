@@ -64,11 +64,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp" >
+
         <ProgressBar
             android:id="@+id/ProgressBar_temps"
             style="@style/Widget.AppCompat.ProgressBar.Horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:progressBackgroundTint="@color/white"
+            android:progressTint="@color/white"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -301,6 +304,19 @@
             android:layout_alignParentRight="true"
             android:backgroundTint="@color/bombe"
             android:text="Z"/>
+
+        <Button
+            android:id="@+id/bt_jouer"
+            android:layout_width="90dp"
+            android:layout_height="43dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="152dp"
+            android:layout_marginLeft="152dp"
+            android:layout_marginBottom="0dp"
+            android:backgroundTint="@color/bombe"
+            android:text="JOUER" />
     </RelativeLayout>
 
 </LinearLayout>
