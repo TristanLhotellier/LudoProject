@@ -52,9 +52,13 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(this, BatailleActivity.class);
                 startActivity(intent);
                 return true;
-            case R.id.menu_compter:
-                Intent intent1 = new Intent(this, CalculerActivity.class);
+            case R.id.menu_pendu:
+                Intent intent1 = new Intent(this, PenduActivity.class);
                 startActivity(intent1);
+                return true;
+            case R.id.menu_compter:
+                Intent intent2 = new Intent(this, CalculerActivity.class);
+                startActivity(intent2);
                 return true;
             case R.id.menu_parametres:
                 Toast.makeText(getApplicationContext(), "Pas de paramètres pour l'instant ...",
