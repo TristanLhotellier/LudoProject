@@ -12,5 +12,11 @@
         <mot contenu="girafe" points="5"></mot>
         <mot contenu="gazelle" points="6"></mot>
     </theme>
+    <theme nom="véhicules">
+        <mot contenu="voiture" points="3"></mot>
+        <mot contenu="moto" points="2"></mot>
+        <mot contenu="quad" points="3"></mot>
+        <mot contenu="vélo" points="6"></mot>
+    </theme>
 
 </dico>

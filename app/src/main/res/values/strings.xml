@@ -53,5 +53,16 @@
     <string name="txtSalut">Salut</string>
     <string name="txtPremiereUtilisation">Tu peux mettre à jour tes paramètres.</string>
 
+    <resources>
+        <string name="mot_de_base">_ _ _ _ _ _ _</string>
+        <string name="nouveau_jeu">Nouveau Jeu</string>
+        <string name="gagne">Gagné !</string>
+        <string name="perdu">Perdu</string>
+        <string name="jeu_fini">Le jeu est fini, commence un nouveau jeu</string>
+        <string name="mot_a_trouve">Le mot a trouver était: #mot#</string>
+        <string name="essaie_encore">Essaie une nouvelle lettre</string>
+        <string name="lettre_deja_entre">Cette lettre a déjà été entré</string>
+    </resources>
+
 
 </resources>
