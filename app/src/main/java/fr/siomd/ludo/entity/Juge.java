@@ -5,6 +5,10 @@ package fr.siomd.ludo.entity;
 //   - gérer le score par thème
 //   - donner un mot à trouver
 
+import android.content.res.XmlResourceParser;
+
+import org.xmlpull.v1.XmlPullParser;
+
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -47,16 +51,16 @@ public class Juge {
         numeroThemeSelectionne = unNumeroTheme;
     }
 
-    public Juge()   {
+    public Juge(XmlPullParser monXmlPullParser)   {
         leHasard = new Random();
         setNumeroThemeSelectionne(-1);
-        lireThemes();
+        lireThemes(monXmlPullParser);
     }
 
     // lire les thèmes à partir du fichier XML pour positionner la liste lesThemes
-    private void lireThemes() {
+    private void lireThemes(XmlPullParser monXmlPullParser) {
         //appeller dicoXml
-        lesThemes = DicoXml.getLesthemes(getRessource);
+        lesThemes = DicoXml.getLesthemes(monXmlPullParser);
 
 
     }

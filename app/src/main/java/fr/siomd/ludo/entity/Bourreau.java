@@ -55,7 +55,7 @@ public class Bourreau {
     }
 
     // retourne les lettres au rebut (qui peut être affichée)
-    public String getLesLettresAuRebut () {
+    public String getLesLettresAuRebut() {
         String lettresAuRebut = "";
         for (Character uneLettre : lesLettresAuRebut){
             lettresAuRebut = lettresAuRebut + uneLettre + " ";
